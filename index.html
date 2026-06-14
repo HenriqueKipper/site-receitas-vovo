@@ -1,11 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas da Vovó</title>
-</head>
-<body>
+
     <h1>Receitas da Vovó</h1>
+    <p>As melhores receitas da vovó!</p>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fff8f0;
+        }
+        h1{
+        color: #d35400;
+        }
+        header{
+            background-color: #f4a261;
+            padding: 15px;
+            
+        }
+        
+        a:hover{
+            color: red;
+        }
+
+        article{
+        margin: 30px 0;
+        padding: 20px;
+        }
+
+        .receita{
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .ingredientes{
+            background-color: #fff3cd;
+            padding: 10px;
+        }
+
+        .preparo{
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+    </style>
+</header>
+<body>
+   
+   
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Receitas</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <article>
+            
+            <h2>Bolo de Chocolate</h2>
+
+            <p>Um bolo fofinho e fácil de fazer.</p>
+
+            <img src="bolo.jpg"
+                alt="Bolo de chocolate fofinho"
+                width="400"
+                height="300">
+            
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/watch?v=jBIrssJu6os"
+            title="Receita de bolo"
+            allowfullscreen>
+            </iframe>
+            
+                <section>
+                <h3>Ingredientes:</h3>
+
+                <ul>
+                    <li>Farinha</li>
+                    <li>Açúcar</li>
+                    <li>Leite</li>
+                    <li>Ovos</li>
+                    <li>Chocolate</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Modo de Preparo:</h3>
+
+                <ol>
+                    <li>Misture os ingredientes secos.</li>
+                    <li>adicione o leite e os ovos.</li>
+                    <li>Misture até formar uma massa homogênea.</li>
+                    <li>Leve ao forno por 40 minutos.</li>
+                    </li>
+                </ol>
+
+            
+            </section>
+
+        </article>
+        <hr>
+        <article>
+
+            <h3>Lasanha</h3>
+
+            <img src="lasanha.jpg"
+                alt="Lasanha pronta"
+                width="400">
+
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/watch?v=2kW8hjum1zM"
+            title="Receita de bolo"
+            allowfullscreen>
+            </iframe>
+            
+            <section>
+                <h4>Ingredientes</h4>
+
+                <ul>
+                    <li>Massa para lasanha</li>
+                    <li>Molho de tomate</li>
+                    <li>Queijo</li>
+                    <li>Presunto</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Modo de Preparo</h4>
+
+            <ol>
+                <li>Monte as camadas.</li>
+                <li>Adicione molho e queijo.</li>
+                <li>Leve ao forno.</li>
+            </ol>
+            </section>
+
+        </article>
+
+        <article>
+        <h2>Tabela Nutricional</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Nutriente</th>
+                    <th>Bolo de Chocolate</th>
+                    <th>Lasanha</th>
+                </tr>
+
+                <tr>
+                    <td>Calorias</td>
+                    <td>320 kcal</td>
+                    <td>450 kcal</td>
+                </tr>
+
+                <tr>
+                    <td>Proteínas</td>
+                    <td>6 g</td>
+                    <td>20 g</td>
+                </tr>
+
+                <tr>
+                    <td>Carboidratos</td>
+                    <td>50 g</td>
+                    <td>35 g</td>
+                </tr>
+            </table>
+        </article>
+
+        <article>
+            <h2>Comentários</h2>
+
+            <form>
+
+                <label>Nome:</label>
+                <input type="text">
+
+                <br><br>
+
+                <label>Mensagem:</label>
+                <textarea rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+        
+        <hr>
+        
+        <a href="https://www.tudogostoso.com.br"
+                target="_blank">
+                Ver mais receitas
+            </a>
+
+        <footer>
+                
+                <p>© 2026 Receitas da Vovó</p>
+
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> |  
+                <a href="#">Pinterest</a>   
+                            
+                <br><br>    
+                            
+                <a href="#topo">Voltar ao topo</a>  
+        </footer>
+    </main>
 </body>
 </html>
